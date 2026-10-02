@@ -6,11 +6,11 @@ import { Outlet } from 'react-router-dom'
 export default function Layout() {
   return (
     <div>
-      <Header />
+      {/* <Header />
       <main className="flex flex-col items-center justify-center h-20 bg-orange-100 text-2xl font-bold">
         <Outlet />
       </main>
-      <Footer />
+      <Footer /> */}
     </div>
   )
 }

@@ -11,13 +11,15 @@ import CreateA from "./pages/CreateA";
 import Login from "./pages/Login";
 import Header from "./components/header";
 import Layout from "./components/Layout";
+import Posts from "./components/Posts";
+
 
 export default function App() {
 
 
   return <>
   
-    <Routes>
+    {/* <Routes>
       <Route element={<Layout />}>
       <Route path="/" element={<Home />} />
       <Route path="/pricing" element={<Prcing />} />
@@ -28,6 +30,7 @@ export default function App() {
       <Route path="/create-account" element={<CreateA />} />
       <Route path="/login" element={<Login />} />
       </Route>
-    </Routes>
+    </Routes> */}
+    {/* <Posts/> */}
   </>;
 }
