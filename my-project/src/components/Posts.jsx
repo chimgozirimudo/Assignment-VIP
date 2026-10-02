@@ -1,4 +1,3 @@
-import React from "react";
 import { postFn } from "../lib/posttFn";
 import { useQuery } from "@tanstack/react-query";
 import { Loader } from "lucide-react";

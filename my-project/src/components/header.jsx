@@ -1,4 +1,3 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
 
 export default function Header() {
@@ -27,13 +26,12 @@ export default function Header() {
           <li className="text-gray-950 font-semibold text-base">
             <NavLink to="/leaderboard">Leaderboard</NavLink>
           </li>
-            <button className="bg-white border border-orange-400 hover:bg-orange-100/80 text-orange-400 font-bold py-px px-4 rounded"   >
+          <button className="bg-white border border-orange-400 hover:bg-orange-100/80 text-orange-400 font-bold py-px px-4 rounded">
             <NavLink to="/login">Login</NavLink>
           </button>
-          <button className="bg-white border border-orange-400 hover:bg-orange-100/80 text-orange-400 font-bold py-px px-4 rounded"   >
+          <button className="bg-white border border-orange-400 hover:bg-orange-100/80 text-orange-400 font-bold py-px px-4 rounded">
             <NavLink to="/create-account">Create Account</NavLink>
           </button>
-        
         </ul>
       </nav>
     </div>
